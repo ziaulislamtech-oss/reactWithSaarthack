@@ -1,0 +1,50 @@
+.parent{
+    display: flex;
+    /* flex:  1 1 20%; */
+    gap: 10px;
+    padding: 10px;
+    min-height: 600px;
+}
+.left{
+    flex: 1 1 30%;
+    /* background-color: yellow; */
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:start;
+}
+ .left i{
+    font-size: 2rem;
+}
+ .left p{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: .5px;
+}
+  .right{
+    flex: 1 1 70%;
+    /* background-color: yellowgreen; */
+    padding: 1.2rem;
+    display: flex;
+    gap: 10px;
+}
+.parent h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+ .box{
+    background-color: black;
+    flex: 1 ;
+    border-radius: 20px;
+}
+.one{
+    background-color: #fff;
+
+}
+.two{
+    background-color: green;
+}
+.three{
+   background-color: red;
+}

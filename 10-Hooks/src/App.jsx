@@ -1,12 +1,12 @@
-import React from 'react'
-import Header from './component/Header/Header'
-import Main from './component/Main/Main'
+
+import Counter from './component/counter/Counter.jsx';
+import UseState from './component/useState/UseState.jsx';
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <Main/>
+      {/* <UseState/> */}
+      <Counter/>
     </div>
   )
 }

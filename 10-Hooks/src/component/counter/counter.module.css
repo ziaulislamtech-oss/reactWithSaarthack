@@ -1,0 +1,21 @@
+.parent{
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+}
+h1{
+    width: 300px;
+    height: 150px;
+    background-color: rgba(32, 32, 32, 0.747);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.button{
+    display: flex;
+    gap: 10px;
+}
+.button button{
+    padding: 15px 45px;
+    border-radius: 5px;
+}
